@@ -1,0 +1,20 @@
+name: socket_io_client
+description: Dartlang port of socket.io-client
+version: 0.9.1
+author: jumperchen <jumperchen@potix.com>
+homepage: https://www.zkoss.org
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  logging:
+  socket_io_common: any
+
+dev_dependencies:
+  test: ">=1.3.0 <2.0.0"
+  build_runner:
+  build_web_compilers:
+  socket_io: any
+
+  
